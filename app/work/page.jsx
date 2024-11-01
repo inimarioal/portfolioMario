@@ -22,7 +22,7 @@ const projects = [
             { name: 'JavaScript' },
         ],
         image: '/assets/work/project1.png',
-        live: '',
+        live: 'https://inimarioal.github.io/Kopi-Titik-Kumpul/',
         github: "https://github.com/inimarioal/Kopi-Titik-Kumpul",
     },
     {
@@ -36,13 +36,26 @@ const projects = [
             { name: 'JavaScript' },
         ],
         image: '/assets/work/project2.png',
-        live: '',
+        live: 'https://inimarioal.github.io/DeeMD/',
         github: "https://github.com/inimarioal/DeeMD",
     },
     {
         num: '03',
-        category: 'Data Analyst',
+        category: 'sentiment analyst',
         title: 'project 3',
+        description: 'SIM-UU is an application for monitoring laws that can be used to facilitate content analysis of laws. With this application, it can be known whether the sentiment analysis of the uploaded laws is positive, negative or neutral, word cloud (what words appear most dominantly) and text mining modeling of the uploaded laws so that the best algorithm can be known that can be used for legal text mining.',
+        stack: [
+            { name: 'Python' },
+            { name: 'Flask' },
+        ],
+        image: '/assets/work/project5.png',
+        live: '',
+        github: "",
+    },
+    {
+        num: '04',
+        category: 'Data Analyst',
+        title: 'project 4',
         description: 'This project aims to predict pizza prices based on certain attributes using linear regression techniques. In this analysis, we will use a dataset that contains information about various types of pizza along with attributes such as size, number of toppings, and sales location.',
         stack: [
             { name: 'Python' },
@@ -52,9 +65,9 @@ const projects = [
         github: "",
     },
     {
-        num: '04',
-        category: 'full stack',
-        title: 'project 3',
+            num: '05',
+            category: 'full stack',
+        title: 'project 5',
         description: 'An e-wallet website that provides a safe and efficient platform for carrying out financial transactions, from user registration to digital banking services.',
         stack: [
             { name: 'Node.js' },
@@ -62,6 +75,18 @@ const projects = [
             { name: 'Laravel' },
         ],
         image: '/assets/work/project4.png',
+        live: '',
+        github: "",
+    },
+    {
+        num: '06',
+        category: 'Sentiment Analyst',
+        title: 'project 6',
+        description: 'MubaSIAP.ID is an information system for analyzing regional head election candidates in Musi Banyuasin, which provides data on electoral districts, permanent voter lists (DPT), and campaign schedules. One of its main features is sentiment analysis, which collects public opinion from social media such as Twitter, Facebook, Google, and TikTok, providing up-to-date insights into public support and sentiment.',
+        stack: [
+            { name: 'Python' },
+        ],
+        image: '/assets/work/project6.png',
         live: '',
         github: "",
     },
@@ -97,7 +122,7 @@ const Work = () => {
                                 {project.num}
                             </div>
                             <h2 className='text-[42px] font-bold leading-none text-white capitalize'>
-                                {project.category} project
+                                {project.category} 
                             </h2>
                             <p className='text-white/60'>
                                 {project.description}
