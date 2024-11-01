@@ -46,6 +46,11 @@ const experience = {
     description: 'With a strong background in front-end development and IT solutions, I have successfully contributed to dynamic web applications and innovative IT projects. My diverse experience has sharpened my technical skills and problem-solving abilities, preparing me to excel in the tech industry.',
     items: [
         {
+            company: 'Freelance Project',
+            position: 'AI Engineer',
+            duration: 'July - October 2024',
+        },
+        {
             company: 'Sifa Aplikasi Indonesia',
             position: 'Front-end Developer',
             duration: 'March 2023 - March 2024',
